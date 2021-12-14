@@ -1,0 +1,132 @@
+/* leftmenu */
+.leftmenu{
+	padding:60px 0 0 30px;
+	height:85%;
+}
+
+/* defualt table */
+table{
+	width:100%;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+	font-size:14px;
+}
+table tr{
+	height:32px;
+}
+table thead tr,
+table tbody tr th{
+	background-color:#ececec;
+	letter-spacing:3px;
+	font-size:14px;
+}
+
+table tr th, 
+table tr td {
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:4px;
+}
+table tr th:last-child, 
+table tr td:last-child{
+	border-right:none;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td{
+	border-bottom:none;
+}
+
+/* title */
+.content-title{
+	position:relative;
+	height:25px;
+	line-height:25px;
+	margin-bottom:5px;
+}
+.content-title i{
+	position:absolute;
+	top:2px;
+	color:#55b8ff;
+}
+.content-title span{
+	font-size:16px;
+	padding-left:30px;
+	color:#464646;
+}
+
+.content-title.sub {
+	height:20px;
+	line-height:20px;
+}
+.content-title.sub i{
+	font-size:18px;
+	top:1px;
+	left:10px;
+}
+.content-title.sub span{
+	font-size:14px;
+	padding-left:36px;
+}
+
+/* button_area_M */
+.button_area{
+	position:relative;
+	margin-bottom:5px;
+}
+.button_area a{
+	display:inline-block;
+	padding:5px 15px 5px 38px;
+	background-color:#ececec;
+	border:1px solid #ccc;
+	border-radius:5px;
+	height:21px;
+	line-height:21px;
+	position:relative;
+	margin-right:5px;
+	font-size:14px;
+	letter-spacing:2px
+}
+.button_area a i{
+	position:absolute;
+	left:8px;
+	top:4px;
+}
+
+.button_area.txt_r a{
+	margin-right:0px;
+	margin-left:5px;
+}
+
+
+/* button_area_S */
+.button_area.small{
+	margin-bottom:0px;
+	display:inline-block
+}
+.button_area.small a{
+	display:inline-block;
+	padding:3px 12px 3px 32px;
+	height:18px;
+	line-height:18px;
+	font-size:12px
+}
+.button_area.small a i{
+	font-size:22px;
+	left:5px;
+	top:2px;
+}
+
+.button_area a:hover{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+

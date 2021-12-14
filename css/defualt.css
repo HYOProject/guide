@@ -1,0 +1,81 @@
+/* font */
+@import url(./fonts/SpoqaHanSansNeo/spoqaHanSansNeo.css);
+/* Rules for sizing the icon. */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./icon/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+		local('MaterialIcons-Regular'),
+		url('./icon/MaterialIcons-Regular.woff2') format('woff2'),
+		url('./icon/MaterialIcons-Regular.woff') format('woff'),
+		url('./icon/MaterialIcons-Regular.ttf') format('truetype');
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: '맑은고딕';
+}
+body{color:#757575; font-size:12px;}
+ul li{list-style:none;}
+a{text-decoration:none; cursor:pointer; color:#757575;}
+input[type=text]{
+	border: 1px solid #ccc;
+	height: 22px;
+}
+label{
+	margin-right: 10px;
+}
+
+/* layout */
+header{
+	background-color:#071e42;
+	height:50px;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:999
+}
+main{
+	background-color:#f9f9f9;
+	position:absolute;
+	width:100%;
+	min-width:800px;
+	height:100%;
+	overflow:auto;
+}
+#gnb{
+	position:fixed;
+	height:100%;
+	width:250px;
+	background:#071e42;
+	z-index:990
+}
+#container{
+	position:relative;
+	display:block;
+	height:auto;
+	padding:75px 25px 60px 275px;
+}
+footer{
+	background-color:#d4d4d4;
+	height:35px;
+	position:fixed;
+	width:100%;
+	bottom:0;
+}
+#footer-area{
+	padding-left:300px;
+}
+
+/* text-align */
+.txt_r{
+	text-align:right;
+}
+
+
+/* common */
+.h_auto{
+	overflow:auto;
+}
